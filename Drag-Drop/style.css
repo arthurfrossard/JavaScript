@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.caixinha{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.container{
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.corVerde{
+  background-color: green;
+}
+
+.corRoxa{
+  background-color: purple;
+}
+
+.corLaranja{
+  background-color: orange;
+}
+
+.corVermelha{
+  background-color: red;
+}

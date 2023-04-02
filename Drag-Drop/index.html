@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div style="display: flex;">
+    <div class="caixinha corVermelha" draggable="true" id="vermelha" ondragstart="aoArrastar(event)"></div>
+    <div class="caixinha corRoxa" draggable="true" id="roxa" ondragstart="aoArrastar(event)"></div>
+    <div class="caixinha corLaranja" draggable="true" id="laranja" ondragstart="aoArrastar(event)"></div>
+    <div class="caixinha corVermelha" draggable="true" id="vermelha2" ondragstart="aoArrastar(event)"></div>
+  </div>
+  Container 1
+  <div class="container" ondragover="aoSoltar(event)" ondrop="noDrop(event)"></div>
+  Container 2
+  <div class="container" ondragover="aoSoltar(event)" ondrop="noDrop(event)"></div>
+  <script src="script.js"></script>
+
+</html>
